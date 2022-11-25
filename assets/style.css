@@ -53,7 +53,7 @@ h5{
 .sidebar {
     position: absolute;
     overflow: hidden;
-    min-height: 85%;
+    min-height: clac(100% - 95.333px);
     height: fit-content !important;
 }
 
