@@ -21,7 +21,8 @@ hr {
     border-bottom: unset;
     border-right: unset;
     border-left: unset;
-    border-top: 1.5px solid #757575;
+    /* border-top: 1.5px solid #757575; */
+    border-top: 1.5px solid #4f4f4f;
 }
 
 a{
@@ -29,7 +30,8 @@ a{
 }
 
 h2 {
-    color: #757575 !important;
+    color: #4f4f4f !important;
+    /* color: #757575 !important; */
 }
 
 h3 {
@@ -53,7 +55,7 @@ h5{
 .sidebar {
     position: absolute;
     overflow: hidden;
-    min-height: clac(100% - 95.333px);
+    min-height: 100%;
     height: fit-content !important;
 }
 
@@ -68,4 +70,12 @@ h5{
 
 .color-off-white{
     background-color: #e5e5e5;
+}
+
+.color-blue{
+    background-color: #3FAEFC;
+}
+
+.color-sub-blue{
+    background-color: #399CE3;
 }
